@@ -1,0 +1,266 @@
+/* Top Section */
+
+#top-section{
+    background-image: url("../images/book_shelf.jpeg");
+    height: 63em;
+}
+
+
+
+.logo-container{
+    padding-top: 50px;
+}
+
+.logo{
+    font-family: cursive;
+    font-size: 4rem;
+    color: #0545B3;
+    text-align: center;
+
+}
+
+/* .logo-shadow{
+    padding: 10px;
+    box-shadow: 1px 1px 12px 0px;
+    border-radius: 25px;
+} */
+
+.school-sub-heading{
+    margin-top: 7rem;
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+    font-family: Montserrat,sans-serif
+}
+
+.school-paragraph-heading{
+    color:white;
+    font-size: 2rem;
+}
+
+.get-started-btn{
+    background-color: #0545B3;
+    color: white;
+    padding: 1rem;
+    margin-right: 2rem;
+
+}
+
+.get-started-btn:hover{
+    border: solid 2px white;
+    color: white;
+}
+
+.contact-us-btn{
+    border: solid 2px white;
+    color: black;
+    padding: 1rem;
+
+}
+
+.contact-us-btn:hover{
+    border: solid 2px #0545B3;
+    color: black;
+}
+
+.contact-us-icon{
+    color: #0545B3;
+}
+
+
+
+
+/* Top Banner Section */
+
+#top-banner{
+    background-color: #F3F4F7;
+}
+
+.banner-col{
+    padding: 2rem;
+}
+
+.banner-title{
+
+}
+
+.banner-answer{
+    color: #0545B3;
+
+}
+
+
+
+
+/* Picture section */
+
+#picture-section{
+    margin-top: 5rem;
+
+}
+
+.school-saying-button{
+    position: relative;
+    top: 1rem;
+
+}
+
+.picture-container-shadow{
+    box-shadow: 1px 1px 20px 0px;
+    width: 50%;
+    padding: 5rem;
+    background-color: #F3F4F7;
+    border-radius: 15rem;
+}
+
+.picture-container-shadow:hover{
+    box-shadow: 1px 1px 20px 0px #0545B3;
+}
+
+.picture-section-image{
+    width: 100%;
+}
+
+.picture-container{
+    padding: 2rem 5rem;
+}
+
+.picture-section-get-started-btn{
+    background-color: #0545B3;
+    color: white;
+    font-size: small;
+}
+
+.picture-section-get-started-btn:hover{
+    color: white;
+    border: solid 1px white;
+}
+
+
+
+/* Grid Section */
+
+#grid-section{
+    margin-top: 5rem;
+
+}
+
+.grid-section-heading{
+    color:black;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 3rem;
+}
+
+.grid-heading-text{
+    margin-bottom: 1rem;
+}
+
+.grid-image{
+    border-radius: 15rem;
+}
+
+.grid-image:hover{
+    box-shadow: 1px 1px 20px 0px #0545B3;
+}
+.grid-row{
+    margin-bottom: 9rem;
+}
+
+.grid-col{
+    margin: auto;
+}
+
+.footer-horizontal-line{
+    color: white;
+    margin-top: 1rem;
+
+}
+
+
+
+
+/* contact us Section */
+
+#contact-us{
+    background-color: #0545B3;
+    padding-top: 3rem;
+}
+
+.logo-footer{
+    font-family: cursive;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.contact-us-text{
+    color: white;
+    font-size: 1rem;
+}
+
+@media (max-width: 1028px){
+    .logo-container{
+        text-align: center;
+    }
+
+    .school-paragraph-heading{
+        color: black;
+    }
+
+    .get-started-btn{
+        margin: 10px auto;
+
+
+    }
+
+
+    .contact-us-btn{
+    margin: 10px auto;
+
+    }
+
+    .picture-container-shadow{
+        padding: 0;
+    }
+
+    .picture-container-text{
+        font-size: 1rem;
+    }
+
+    .picture-container{
+        padding: 0px;
+    }
+
+    .picture-container-shadow{
+        border-radius: 28rem;
+        padding: 3rem;
+    }
+
+    .picture-section-get-started-btn{
+        font-size: 0.4rem;
+        margin-top: 1rem;
+    }
+
+
+    .grid-heading-text{
+        font-size: 0.7rem;
+        font-weight: bold;
+
+    }
+
+    .grid-paragraph-text{
+        font-size: 0.7rem;
+    }
+
+    .grid-row{
+        margin-bottom: 3rem;
+    }
+    
+
+    
+}
+
+/* #0545B3 
+#F3F4F7
+ #D6040D*/
